@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface TheaterService {
-    public TheaterDTO addTheater(TheaterDTO theater);
+    public TheaterDTO addTheater(TheaterDTO theater) ;
 
     public TheaterDTO getTheater(int id);
 }
